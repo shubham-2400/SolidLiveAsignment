@@ -9,7 +9,7 @@ import sun.reflect.generics.reflectiveObjects.NotImplementedException;
  * Time: 4:21:11 PM
  * To change this template use File | Settings | File Templates.
  */
-public class SensingDoor implements Door{
+public class SensingDoor implements Door,SensorClient{
     private boolean isLocked;
     private boolean isOpened;
 
